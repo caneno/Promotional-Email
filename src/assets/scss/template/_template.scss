@@ -1,0 +1,130 @@
+/* ---------------------------HEADER---------------------- */
+.header-container {
+  tbody {
+    .row {
+      margin-top: 1em;
+      .header-content {
+        padding: 0;
+        .logo,
+        .home {
+          padding-bottom: 0 !important;
+        }
+      }
+      .header-items {
+        font-size: 22px;
+        margin-top: 52%;
+        text-align: end;
+
+        color: $black;
+        a {
+          text-decoration: none;
+          color: $black;
+        }
+      }
+      .About {
+        margin-right: 2px;
+      }
+    }
+  }
+}
+/* ---------------------------------CONTENT------------------------- */
+/* ---------------------PREMIER---------------------------- */
+
+.premier-img {
+  padding: 0 !important;
+}
+
+.premier-merch {
+  margin: 50px 0 45px;
+  .pop-art{
+    margin-left: 10%;
+  }
+  .merch {
+    margin: 27px;
+  }
+
+  span {
+    font-size: 12px;
+    font-weight: bold;
+    width: 85%;
+  }
+}
+
+.upcoming {
+  background: $banner-black;
+  background-color: $banner-black;
+  .columns {
+    padding: 58px 0 38px;
+    .upcom-text {
+      color: $banner-white;
+      font-family: $banner-font-family;
+      .line-one {
+        font-size: 19px;
+        font-weight: 700;
+      }
+      .line-two {
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 15px;
+      }
+      .line-three {
+        font-size: 19px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+.mob-ad {
+  .columns {
+    padding: 0 0 5px 0 !important;
+  }
+}
+
+/* ------------------------------Footer------------------------- */
+
+.footer-container {
+  .footer-head {
+    background: $ft-black;
+    background-color: $ft-black;
+    .columns {
+      padding-bottom: 0px;
+    }
+    .play-logo,
+    .appleStore-logo {
+      height: 45%;
+    }
+  }
+  .footer-body {
+    background: $footer-body-black;
+    background-color: $footer-body-black;
+    padding: 16px;
+    p {
+      font-size: 68%;
+      line-height: 20px;
+      color: $white;
+    }
+  }
+  a {
+    text-decoration: underline;
+    color: $white;
+  }
+}
+
+/* ------------------------------MEDIA QUERY MOBILE------------------------- */
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+  .header-container {
+    tbody {
+      .row {
+        th{
+          padding-left: 0px;
+        }
+        .header-items{
+          margin-top: 31px;
+          text-align: right;
+          font-size: 15px
+        }
+      }
+    }
+  }
+}
